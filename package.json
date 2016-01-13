@@ -7,13 +7,8 @@
   "contributors": [
     "Pieter Noordhuis <pcnoordhuis@gmail.com>"
   ],
-  "main": "hiredis",
   "scripts": {
     "test": "node test/reader.js && node test/writer.js"
-  },
-  "dependencies": {
-    "bindings": "^1.2.1",
-    "nan": "^2.1.0"
   },
   "engines": {
     "node": ">= 0.8.0"
